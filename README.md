@@ -1,4 +1,4 @@
-# MaPPA---Sistemas-Operativos-2023
+# MaPPA - Sistemas-Operativos-2023
 
 Trabajo realizado por:   
 • Camila Grisel Barros Albarracin  
