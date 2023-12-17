@@ -1,0 +1,7 @@
+#!/bin/bash
+FILE=bin/Memoria.out
+make clean all
+make
+if test -f "./$FILE"; then
+    ./$FILE ./cfg/Memoria.config
+fi

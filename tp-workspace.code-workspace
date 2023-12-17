@@ -1,0 +1,49 @@
+{
+	"settings": { 
+		"debug.onTaskErrors": "abort", 
+		"files.associations": {
+			"*.h": "c",
+			"array": "c",
+			"string_view": "c",
+			"initializer_list": "c",
+			"utility": "c",
+			"random": "c",
+			"cstdlib": "c",
+			"deque": "c",
+			"string": "c",
+			"unordered_map": "c",
+			"vector": "c"
+		}, 
+		"C_Cpp.errorSquiggles": "disabled", 
+	},
+	"folders": [
+		{
+			"name": "CPU",
+			"path": "CPU"
+		},
+		{
+			"name": "FS",
+			"path": "FS"
+		},
+		{
+			"name": "Kernel",
+			"path": "Kernel"
+		},
+		{
+			"name": "Memoria",
+			"path": "Memoria"
+		},
+		{
+			"name": "Shared",
+			"path": "Shared"
+		},
+		{
+			"name": "deploy",
+			"path": "deploy"
+		},
+		{
+			"name": "configs",
+			"path": "configs"
+		}
+	]
+}

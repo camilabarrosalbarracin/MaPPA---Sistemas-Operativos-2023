@@ -1,0 +1,7 @@
+#!/bin/bash
+FILE=bin/Kernel.out
+mmake clean all
+make
+if test -f "./$FILE"; then
+    valgrind --tool=helgrind ./$FILE ./cfg/Kernel.config
+fi

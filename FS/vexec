@@ -1,0 +1,7 @@
+#!/bin/bash
+FILE=bin/FS.out
+make clean all
+make
+if test -f "./$FILE"; then
+    valgrind --tool=memcheck --leak-check=yes --show-possibly-lost=yes --show-reachable=no --num-callers=20 --track-origins=yes ./$FILE ./cfg/FS.config
+fi
