@@ -1,6 +1,6 @@
 # MaPPA---Sistemas-Operativos-2023
 
-Trabajo realizado por: 
+Trabajo realizado por:   
 • Camila Grisel Barros Albarracin  
 • Avril Dinora Martina Lopez  
 • Mateo Igon  
